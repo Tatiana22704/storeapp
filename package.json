@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/Tatiana22704/storeapp#readme",
   "dependencies": {
-    "express": "^5.1.0"
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "express-ejs-layouts": "^2.5.1"
   }
 }

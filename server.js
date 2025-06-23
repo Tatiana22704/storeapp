@@ -19,6 +19,8 @@ app.use(express.static(path.join(__dirname, 'public'))); // for Bootstrap, CSS, 
 // Routes
 const indexRouter = require('./routes/index');
 app.use('/', indexRouter);
+const productsRouter = require('./routes/products');
+app.use('/products', productsRouter);
 
 // Start server
 app.listen(PORT, () => {
